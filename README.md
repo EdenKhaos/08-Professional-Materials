@@ -33,7 +33,7 @@ Resume Link:
 ![home](assets/pdf/Coding_Resume_2020.pdf)
 
 ## Screenshot;
-![home](assets/images/Screenshot.jpg)
+![home](https://github.com/EdenKhaos/08-professional-materials/blob/master/assets/images/Screenshot.JPG)
 
 ## Follow pseudo code in html file (index.html)
 1. Create initial nav bar from bootstrap

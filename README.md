@@ -30,7 +30,7 @@ LinkedIn:
     https://www.linkedin.com/in/ravendantes/
 
 Resume Link: 
-![home](assets/pdf/Coding_Resume_2020.pdf)
+![link](https://github.com/EdenKhaos/08-professional-materials/blob/master/assets/pdf/Coding_Resume_2020.pdf)
 
 ## Screenshot;
 ![home](https://github.com/EdenKhaos/08-professional-materials/blob/master/assets/images/Screenshot.JPG)

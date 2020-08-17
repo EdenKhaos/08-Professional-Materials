@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Bootstrap Portfolio</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<body>
+  <!-- Create initial nav bar from bootstrap -->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Heather Cooper</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling  and link to other pages-->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- main body information in two sub-columns in the main column-->
+  <div id="main-container" class="container">
+    <div class="row"></div>
+    <div class="col-md-8"></div>
+    <div class="main-section">
+      <h1>Portfolio</h1>
+      <hr>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="work">
+            <a href="https://pprewitt.github.io/TrailsApp/"> <!-- create link from image to another page including repo--->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="200px"
+              src="assets/images/Go_Hiking.JPG" alt="Project 1" class="responsive">
+            </a>  
+            <h3><a href="https://github.com/EdenKhaos/TrailsApp" id= "hover" style="color: white">Go Hiking!</a></h3>
+          </div>
+          <div class="work">
+            <a href="https://edenkhaos.github.io/06-weather_dashboard/"> <!-- create link from image to another page including repo--->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="200px"
+              src="assets/images/Weather_Dashboard.JPG" alt="Weather Dashboard" class="responsive">
+            </a>
+            <h3><a href="https://github.com/EdenKhaos/06-weather_dashboard" id= "hover" style="color: white">Weather Dashboard</a></h3>
+          </div>
+          <div class="work">
+            <a href="https://edenkhaos.github.io/05-work-day-scheduler/"> <!-- create link from image to another page including repo-->
+              <img style="float: left; margin: 0px 15px 15px 0px;" height="100px" width="200px"
+              src="assets/images/Day_Scheduler.JPG" alt="Day Scheduler" class="responsive">
+            </a>
+            <h3><a href="https://github.com/EdenKhaos/05-work-day-scheduler" class= "hover" style="color: white">Day Scheduler</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main body information in 2nd column-->
+    <div class="col-md-4 sidebar">
+      <h4>Connect with me</h4>
+      <a href="https://github.com/EdenKhaos" target="_blank"><img src="assets/images/githubpurp.png" alt="GitHub"
+          class="socialImage"></a>
+
+      <a href="https://www.linkedin.com/in/ravendantes/" target="_blank"><img src="assets/images/linkedinpurp.png"
+          class="socialImage" alt="linkedin"></a>
+
+      <h3><a href="assets/pdf/Coding_Resume_2020.pdf" class= "hover" style="color: white">Resume</a></h3> <!-- link resume PDF-->
+
+    </div>
+  </div>
+  </div>
+  <!-- footer-->
+  <footer>
+    Copyright &copy; 2020 Heather Cooper
+  </footer>
+</body>
+
+</html>
